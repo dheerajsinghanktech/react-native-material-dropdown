@@ -79,8 +79,6 @@ export default class Dropdown extends PureComponent {
   };
 
   static propTypes = {
-    ...TouchableWithoutFeedback.propTypes,
-
     disabled: PropTypes.bool,
 
     value: PropTypes.oneOfType([
