@@ -501,8 +501,6 @@ export default class Dropdown extends PureComponent {
       title:
       String(title);
     
-    console.warn('textfield title', title);
-
     return (
       <TextField
         label=''
