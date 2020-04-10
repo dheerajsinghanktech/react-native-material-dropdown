@@ -500,6 +500,8 @@ export default class Dropdown extends PureComponent {
     title = null == title || 'string' === typeof title?
       title:
       String(title);
+    
+    console.warn('textfield title', title);
 
     return (
       <TextField
